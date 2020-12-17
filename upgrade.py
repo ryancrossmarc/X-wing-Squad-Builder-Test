@@ -6,9 +6,9 @@ import matplotlib as mpl
 import pendulum as pend
 
 class Upgrade:
-    def __init__(self, name, points, utype, tags='', conditions=''):
+    def __init__(self, name, points, uType, tags='', conditions=''):
         self.name = name
         self.points = points
-        self.utype = utype
+        self.uType = uType
         self.tags = tags
         self.conditions = conditions
