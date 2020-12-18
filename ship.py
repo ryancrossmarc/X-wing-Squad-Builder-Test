@@ -7,10 +7,11 @@ import pendulum as pend
 from pilot import Pilot
 
 class Ship:
-    def __init__(self, pilot, sType, tags=[], sAbility='', stats=[], actions=[]):
+    def __init__(self, pilot, sType, tags=[], sAbility='', stats=[], actions=[], upgrades=[]):
         self.pilot = pilot
         self.sType = sType
         self.tags = tags
         self.sAbility = sAbility
         self.stats = stats
         self.actions = actions
+        self.upgrades = upgrades
